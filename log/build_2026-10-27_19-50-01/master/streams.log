@@ -1,0 +1,19 @@
+[0.072s] Invoking command in '/home/labib/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/labib/iris_fp1_ws/build/master -- -j12 -l12
+[0.167s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.136s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.290s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.350s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.898s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.910s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.264s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.370s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.485s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.879s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.498s] -- Configuring done (3.4s)
+[3.557s] -- Generating done (0.0s)
+[3.586s] -- Build files have been written to: /home/labib/iris_fp1_ws/build/master
+[3.734s] [ 50%] [32mBuilding CXX object CMakeFiles/main_controller.dir/src/main_controller.cpp.o[0m
+[43.858s] [100%] [32m[1mLinking CXX executable main_controller[0m
+[45.411s] [100%] Built target main_controller

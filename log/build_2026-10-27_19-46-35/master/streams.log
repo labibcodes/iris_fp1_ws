@@ -1,0 +1,26 @@
+[0.053s] Invoking command in '/home/labib/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/labib/iris_fp1_ws/master -DCMAKE_INSTALL_PREFIX=/home/labib/iris_fp1_ws/install/master
+[0.308s] -- The C compiler identification is GNU 13.3.0
+[0.535s] -- The CXX compiler identification is GNU 13.3.0
+[0.596s] -- Detecting C compiler ABI info
+[0.930s] -- Detecting C compiler ABI info - done
+[0.966s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.966s] -- Detecting C compile features
+[0.971s] -- Detecting C compile features - done
+[1.008s] -- Detecting CXX compiler ABI info
+[1.418s] -- Detecting CXX compiler ABI info - done
+[1.460s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.460s] -- Detecting CXX compile features
+[1.473s] -- Detecting CXX compile features - done
+[1.474s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.073s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.572s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.081s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.083s] -- Configured cppcheck include dirs: 
+[3.083s] -- Configured cppcheck exclude dirs and/or files: 
+[3.088s] -- Added test 'lint_cmake' to check CMake code style
+[3.093s] -- Added test 'uncrustify' to check C / C++ code style
+[3.093s] -- Configured uncrustify additional arguments: 
+[3.093s] -- Added test 'xmllint' to check XML markup files
+[3.101s] -- Configuring done (3.0s)
+[3.117s] -- Generating done (0.0s)
+[3.136s] -- Build files have been written to: /home/labib/iris_fp1_ws/build/master

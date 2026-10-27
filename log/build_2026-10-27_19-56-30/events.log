@@ -1,0 +1,492 @@
+[0.000000] (-) TimerEvent: {}
+[0.001468] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.002132] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.002299] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.002488] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.002734] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.003033] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.003101] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.003145] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.003219] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.003284] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.003324] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.003635] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.003748] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.003834] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.003919] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.003992] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.004055] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.004106] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.004161] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.004579] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.005240] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.006709] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.007342] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.007957] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.008146] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.008286] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.008813] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.009124] (-) JobUnselected: {'identifier': 'lusb'}
+[0.009229] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.011640] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.012356] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.013487] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.014381] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.014644] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.014742] (communication) JobQueued: {'identifier': 'communication', 'dependencies': OrderedDict()}
+[0.014833] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.015431] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.015663] (communication) JobStarted: {'identifier': 'communication'}
+[0.037436] (master) JobStarted: {'identifier': 'master'}
+[0.050744] (vision) JobStarted: {'identifier': 'vision'}
+[0.072583] (communication) JobProgress: {'identifier': 'communication', 'progress': 'cmake'}
+[0.074867] (communication) JobProgress: {'identifier': 'communication', 'progress': 'build'}
+[0.077404] (communication) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/labib/iris_fp1_ws/build/communication', '--', '-j12', '-l12'], 'cwd': '/home/labib/iris_fp1_ws/build/communication', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'labib', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/labib', 'OLDPWD': '/home/labib', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3224', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/labib/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'labib', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'labib', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/labib-Precision-7550:@/tmp/.ICE-unix/2996,unix/labib-Precision-7550:/tmp/.ICE-unix/2996', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4656c7c1_05f6_4f5e_a810_6486fd7070a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/labib/iris_fp1_ws/build/communication', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.092557] (master) JobProgress: {'identifier': 'master', 'progress': 'cmake'}
+[0.096071] (master) JobProgress: {'identifier': 'master', 'progress': 'build'}
+[0.098108] (master) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/labib/iris_fp1_ws/build/master', '--', '-j12', '-l12'], 'cwd': '/home/labib/iris_fp1_ws/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'labib', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/labib', 'OLDPWD': '/home/labib', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3224', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/labib/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'labib', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'labib', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/labib-Precision-7550:@/tmp/.ICE-unix/2996,unix/labib-Precision-7550:/tmp/.ICE-unix/2996', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4656c7c1_05f6_4f5e_a810_6486fd7070a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/labib/iris_fp1_ws/build/master', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.104780] (-) TimerEvent: {}
+[0.115687] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.119375] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.121121] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/labib/iris_fp1_ws/build/vision', '--', '-j12', '-l12'], 'cwd': '/home/labib/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'labib', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/labib', 'OLDPWD': '/home/labib', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3224', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/labib/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'labib', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'labib', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/labib-Precision-7550:@/tmp/.ICE-unix/2996,unix/labib-Precision-7550:/tmp/.ICE-unix/2996', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4656c7c1_05f6_4f5e_a810_6486fd7070a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/labib/iris_fp1_ws/build/vision', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.205047] (-) TimerEvent: {}
+[0.232641] (vision) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.305227] (-) TimerEvent: {}
+[0.310463] (communication) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/udp_sender.dir/src/udp_sender.cpp.o\x1b[0m\n'}
+[0.321984] (master) StdoutLine: {'line': b'[100%] Built target main_controller\n'}
+[0.363723] (master) CommandEnded: {'returncode': 0}
+[0.365792] (master) JobProgress: {'identifier': 'master', 'progress': 'install'}
+[0.396841] (master) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/labib/iris_fp1_ws/build/master'], 'cwd': '/home/labib/iris_fp1_ws/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'labib', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/labib', 'OLDPWD': '/home/labib', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3224', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/labib/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'labib', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'labib', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/labib-Precision-7550:@/tmp/.ICE-unix/2996,unix/labib-Precision-7550:/tmp/.ICE-unix/2996', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4656c7c1_05f6_4f5e_a810_6486fd7070a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/labib/iris_fp1_ws/build/master', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.405914] (-) TimerEvent: {}
+[0.427998] (master) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.428660] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/lib/master/main_controller\n'}
+[0.437665] (master) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/labib/iris_fp1_ws/install/master/lib/master/main_controller" to ""\n'}
+[0.438415] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master\n'}
+[0.441596] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master\n'}
+[0.443169] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.sh\n'}
+[0.444401] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.dsv\n'}
+[0.445148] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/environment/path.sh\n'}
+[0.445758] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/environment/path.dsv\n'}
+[0.446234] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/local_setup.bash\n'}
+[0.447418] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/local_setup.sh\n'}
+[0.448960] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/local_setup.zsh\n'}
+[0.449384] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/local_setup.dsv\n'}
+[0.449689] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/package.dsv\n'}
+[0.450013] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/ament_index/resource_index/packages/master\n'}
+[0.452726] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/cmake/masterConfig.cmake\n'}
+[0.454466] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/cmake/masterConfig-version.cmake\n'}
+[0.456759] (master) StdoutLine: {'line': b'-- Installing: /home/labib/iris_fp1_ws/install/master/share/master/package.xml\n'}
+[0.458147] (master) CommandEnded: {'returncode': 0}
+[0.508421] (-) TimerEvent: {}
+[0.535112] (master) JobEnded: {'identifier': 'master', 'rc': 0}
+[0.608937] (-) TimerEvent: {}
+[0.709845] (-) TimerEvent: {}
+[0.812088] (-) TimerEvent: {}
+[0.912692] (-) TimerEvent: {}
+[1.013484] (-) TimerEvent: {}
+[1.114510] (-) TimerEvent: {}
+[1.194596] (vision) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.214632] (-) TimerEvent: {}
+[1.315486] (-) TimerEvent: {}
+[1.332082] (vision) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.385066] (vision) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.415753] (-) TimerEvent: {}
+[1.455461] (vision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.515995] (-) TimerEvent: {}
+[1.534317] (vision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.616577] (-) TimerEvent: {}
+[1.717003] (-) TimerEvent: {}
+[1.817591] (-) TimerEvent: {}
+[1.837058] (vision) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.843827] (vision) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.917774] (-) TimerEvent: {}
+[2.018553] (-) TimerEvent: {}
+[2.119749] (-) TimerEvent: {}
+[2.128784] (vision) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.219992] (-) TimerEvent: {}
+[2.320828] (-) TimerEvent: {}
+[2.421827] (-) TimerEvent: {}
+[2.458162] (vision) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.521893] (-) TimerEvent: {}
+[2.623652] (-) TimerEvent: {}
+[2.721223] (vision) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[2.723656] (-) TimerEvent: {}
+[2.824109] (-) TimerEvent: {}
+[2.925121] (-) TimerEvent: {}
+[3.028104] (-) TimerEvent: {}
+[3.132283] (-) TimerEvent: {}
+[3.228656] (vision) StdoutLine: {'line': b'-- Configuring done (3.0s)\n'}
+[3.232638] (-) TimerEvent: {}
+[3.306201] (vision) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.325870] (vision) StdoutLine: {'line': b'-- Build files have been written to: /home/labib/iris_fp1_ws/build/vision\n'}
+[3.332666] (-) TimerEvent: {}
+[3.433242] (-) TimerEvent: {}
+[3.469031] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/line_detector.dir/src/line_detector.cpp.o\x1b[0m\n'}
+[3.533356] (-) TimerEvent: {}
+[3.634014] (-) TimerEvent: {}
+[3.734939] (-) TimerEvent: {}
+[3.835745] (-) TimerEvent: {}
+[3.937240] (-) TimerEvent: {}
+[4.037964] (-) TimerEvent: {}
+[4.138449] (-) TimerEvent: {}
+[4.238874] (-) TimerEvent: {}
+[4.339644] (-) TimerEvent: {}
+[4.442143] (-) TimerEvent: {}
+[4.543373] (-) TimerEvent: {}
+[4.643927] (-) TimerEvent: {}
+[4.747303] (-) TimerEvent: {}
+[4.848239] (-) TimerEvent: {}
+[4.948864] (-) TimerEvent: {}
+[5.049770] (-) TimerEvent: {}
+[5.151231] (-) TimerEvent: {}
+[5.252365] (-) TimerEvent: {}
+[5.354660] (-) TimerEvent: {}
+[5.456083] (-) TimerEvent: {}
+[5.556733] (-) TimerEvent: {}
+[5.657765] (-) TimerEvent: {}
+[5.758605] (-) TimerEvent: {}
+[5.859384] (-) TimerEvent: {}
+[5.960454] (-) TimerEvent: {}
+[6.063269] (-) TimerEvent: {}
+[6.163743] (-) TimerEvent: {}
+[6.264943] (-) TimerEvent: {}
+[6.366133] (-) TimerEvent: {}
+[6.467654] (-) TimerEvent: {}
+[6.568557] (-) TimerEvent: {}
+[6.669199] (-) TimerEvent: {}
+[6.770191] (-) TimerEvent: {}
+[6.870933] (-) TimerEvent: {}
+[6.973011] (-) TimerEvent: {}
+[7.073769] (-) TimerEvent: {}
+[7.174646] (-) TimerEvent: {}
+[7.276484] (-) TimerEvent: {}
+[7.377830] (-) TimerEvent: {}
+[7.480377] (-) TimerEvent: {}
+[7.581030] (-) TimerEvent: {}
+[7.681618] (-) TimerEvent: {}
+[7.782367] (-) TimerEvent: {}
+[7.882940] (-) TimerEvent: {}
+[7.984312] (-) TimerEvent: {}
+[8.085889] (-) TimerEvent: {}
+[8.186671] (-) TimerEvent: {}
+[8.287321] (-) TimerEvent: {}
+[8.388123] (-) TimerEvent: {}
+[8.489026] (-) TimerEvent: {}
+[8.589775] (-) TimerEvent: {}
+[8.690617] (-) TimerEvent: {}
+[8.791847] (-) TimerEvent: {}
+[8.892319] (-) TimerEvent: {}
+[8.992836] (-) TimerEvent: {}
+[9.094927] (-) TimerEvent: {}
+[9.196857] (-) TimerEvent: {}
+[9.298026] (-) TimerEvent: {}
+[9.399853] (-) TimerEvent: {}
+[9.501405] (-) TimerEvent: {}
+[9.602598] (-) TimerEvent: {}
+[9.703659] (-) TimerEvent: {}
+[9.804163] (-) TimerEvent: {}
+[9.907497] (-) TimerEvent: {}
+[10.008881] (-) TimerEvent: {}
+[10.110371] (-) TimerEvent: {}
+[10.211430] (-) TimerEvent: {}
+[10.312825] (-) TimerEvent: {}
+[10.413419] (-) TimerEvent: {}
+[10.516541] (-) TimerEvent: {}
+[10.617225] (-) TimerEvent: {}
+[10.718346] (-) TimerEvent: {}
+[10.798833] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:46:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K[\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.799645] (communication) StderrLine: {'line': b"   46 |     static constexpr char kHeader[4] = {'I', 'R', 'I', 'S'};\x1b[01;31m\x1b[K[\x1b[m\x1b[Kcite: 22]\n"}
+[10.800024] (communication) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.800509] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:47:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K[\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.800802] (communication) StderrLine: {'line': b'   47 |     static constexpr size_t kPacketSize = 12;\x1b[01;31m\x1b[K[\x1b[m\x1b[Kcite: 22]\n'}
+[10.801110] (communication) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.818649] (-) TimerEvent: {}
+[10.919782] (-) TimerEvent: {}
+[10.943542] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:65:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KkPacketSize\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.944873] (communication) StderrLine: {'line': b'   65 |     void build_packet(uint8_t (&buf)[\x1b[01;31m\x1b[KkPacketSize\x1b[m\x1b[K], int32_t pwm, int32_t steer) {\n'}
+[10.945939] (communication) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.947189] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:65:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.947933] (communication) StderrLine: {'line': b'   65 |     void build_packet\x1b[34m\x1b[K(\x1b[m\x1b[Kuint8_t (&buf)[kPacketSize]\x1b[01;31m\x1b[K,\x1b[m\x1b[K int32_t pwm, int32_t steer) {\n'}
+[10.948794] (communication) StderrLine: {'line': b'      |                      \x1b[34m\x1b[K~\x1b[m\x1b[K                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.949362] (communication) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[10.949704] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:65:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Kint32_t\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[10.949986] (communication) StderrLine: {'line': b'   65 |     void build_packet(uint8_t (&buf)[kPacketSize], \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K pwm, int32_t steer) {\n'}
+[10.950355] (communication) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.950643] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:65:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[10.951041] (communication) StderrLine: {'line': b'   65 |     void build_packet(uint8_t (&buf)[kPacketSize], \x1b[01;31m\x1b[Kint32_t\x1b[m\x1b[K pwm, int32_t steer) {\n'}
+[10.954681] (communication) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.955156] (communication) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[10.955436] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:65:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpwm\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.955696] (communication) StderrLine: {'line': b'   65 |     void build_packet(uint8_t (&buf)[kPacketSize], int32_t \x1b[01;31m\x1b[Kpwm\x1b[m\x1b[K, int32_t steer) {\n'}
+[10.955952] (communication) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.019896] (-) TimerEvent: {}
+[11.029217] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kvirtual UdpSenderNode::\x1b[01;32m\x1b[K~UdpSenderNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.030719] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:41:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksock_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksocket\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.031556] (communication) StderrLine: {'line': b'   41 |         if (\x1b[01;31m\x1b[Ksock_\x1b[m\x1b[K >= 0) close(sock_);\n'}
+[11.032133] (communication) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.033632] (communication) StderrLine: {'line': b'      |             \x1b[32m\x1b[Ksocket\x1b[m\x1b[K\n'}
+[11.061360] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool UdpSenderNode::\x1b[01;32m\x1b[Kinit_socket\x1b[m\x1b[K(const std::string&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.061947] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:57:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksock_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksocket\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.062368] (communication) StderrLine: {'line': b'   57 |         \x1b[01;31m\x1b[Ksock_\x1b[m\x1b[K = socket(AF_INET, SOCK_DGRAM, 0);\n'}
+[11.062703] (communication) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.063040] (communication) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ksocket\x1b[m\x1b[K\n'}
+[11.094271] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid UdpSenderNode::\x1b[01;32m\x1b[Ksend_packet\x1b[m\x1b[K(int32_t, int32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.095149] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:78:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KkPacketSize\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.095554] (communication) StderrLine: {'line': b'   78 |         uint8_t packet[\x1b[01;31m\x1b[KkPacketSize\x1b[m\x1b[K];\n'}
+[11.095927] (communication) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.120069] (-) TimerEvent: {}
+[11.121573] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:79:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpacket\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksocket\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.122721] (communication) StderrLine: {'line': b'   79 |         build_packet(\x1b[01;31m\x1b[Kpacket\x1b[m\x1b[K, pwm, steer);\n'}
+[11.123896] (communication) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[11.126836] (communication) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Ksocket\x1b[m\x1b[K\n'}
+[11.156735] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/communication/src/udp_sender.cpp:80:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksock_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksocket\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.157494] (communication) StderrLine: {'line': b'   80 |         sendto(\x1b[01;31m\x1b[Ksock_\x1b[m\x1b[K, packet, sizeof(packet), 0,\n'}
+[11.157857] (communication) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.158168] (communication) StderrLine: {'line': b'      |                \x1b[32m\x1b[Ksocket\x1b[m\x1b[K\n'}
+[11.220206] (-) TimerEvent: {}
+[11.321293] (-) TimerEvent: {}
+[11.422920] (-) TimerEvent: {}
+[11.524145] (-) TimerEvent: {}
+[11.624891] (-) TimerEvent: {}
+[11.726498] (-) TimerEvent: {}
+[11.830019] (-) TimerEvent: {}
+[11.930753] (-) TimerEvent: {}
+[12.031595] (-) TimerEvent: {}
+[12.132177] (-) TimerEvent: {}
+[12.234934] (-) TimerEvent: {}
+[12.336938] (-) TimerEvent: {}
+[12.438673] (-) TimerEvent: {}
+[12.541085] (-) TimerEvent: {}
+[12.643049] (-) TimerEvent: {}
+[12.746144] (-) TimerEvent: {}
+[12.848487] (-) TimerEvent: {}
+[12.949521] (-) TimerEvent: {}
+[13.050193] (-) TimerEvent: {}
+[13.150978] (-) TimerEvent: {}
+[13.251958] (-) TimerEvent: {}
+[13.356739] (-) TimerEvent: {}
+[13.459397] (-) TimerEvent: {}
+[13.561064] (-) TimerEvent: {}
+[13.661760] (-) TimerEvent: {}
+[13.762295] (-) TimerEvent: {}
+[13.863828] (-) TimerEvent: {}
+[13.965755] (-) TimerEvent: {}
+[14.069912] (-) TimerEvent: {}
+[14.171546] (-) TimerEvent: {}
+[14.272998] (-) TimerEvent: {}
+[14.373496] (-) TimerEvent: {}
+[14.473992] (-) TimerEvent: {}
+[14.574967] (-) TimerEvent: {}
+[14.679532] (-) TimerEvent: {}
+[14.780793] (-) TimerEvent: {}
+[14.882310] (-) TimerEvent: {}
+[14.983023] (-) TimerEvent: {}
+[15.084538] (-) TimerEvent: {}
+[15.185409] (-) TimerEvent: {}
+[15.286288] (-) TimerEvent: {}
+[15.387339] (-) TimerEvent: {}
+[15.487891] (-) TimerEvent: {}
+[15.588480] (-) TimerEvent: {}
+[15.690753] (-) TimerEvent: {}
+[15.791566] (-) TimerEvent: {}
+[15.892071] (-) TimerEvent: {}
+[15.992737] (-) TimerEvent: {}
+[16.093521] (-) TimerEvent: {}
+[16.194939] (-) TimerEvent: {}
+[16.295586] (-) TimerEvent: {}
+[16.396139] (-) TimerEvent: {}
+[16.497001] (-) TimerEvent: {}
+[16.598045] (-) TimerEvent: {}
+[16.698753] (-) TimerEvent: {}
+[16.799704] (-) TimerEvent: {}
+[16.900651] (-) TimerEvent: {}
+[17.002386] (-) TimerEvent: {}
+[17.104118] (-) TimerEvent: {}
+[17.205221] (-) TimerEvent: {}
+[17.305911] (-) TimerEvent: {}
+[17.407727] (-) TimerEvent: {}
+[17.508600] (-) TimerEvent: {}
+[17.609486] (-) TimerEvent: {}
+[17.709925] (-) TimerEvent: {}
+[17.810849] (-) TimerEvent: {}
+[17.911867] (-) TimerEvent: {}
+[17.933362] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLineDetectorNode::\x1b[01;32m\x1b[KLineDetectorNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.934225] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:14:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcite\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[17.934714] (vision) StderrLine: {'line': b'   14 |         );[\x1b[01;31m\x1b[Kcite\x1b[m\x1b[K: 18, 21]\n'}
+[17.935122] (vision) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[17.935521] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:14:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[17.936213] (vision) StderrLine: {'line': b'   14 |         );[cite\x1b[01;31m\x1b[K:\x1b[m\x1b[K 18, 21]\n'}
+[17.936645] (vision) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[17.936963] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:14:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[17.937348] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:14:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K]\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[17.937917] (vision) StderrLine: {'line': b'   14 |         );[cite: 18\x1b[01;31m\x1b[K,\x1b[m\x1b[K 21]\n'}
+[17.938364] (vision) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[17.938877] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[17.939741] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:14:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[17.942331] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLineDetectorNode::\x1b[01;32m\x1b[KLineDetectorNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.944052] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:14:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K]\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[17.944787] (vision) StderrLine: {'line': b'   14 |         );[cite: 18, 21\x1b[01;31m\x1b[K]\x1b[m\x1b[K\n'}
+[17.945314] (vision) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[17.946079] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:16:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.946438] (vision) StderrLine: {'line': b'   16 | ->create_publisher<std_msgs::msg::Float32>("/vision/steer_target", 10)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.946752] (vision) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.947139] (vision) StderrLine: {'line': b'\n'}
+[18.006909] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LineDetectorNode::\x1b[01;32m\x1b[Kimage_callback\x1b[m\x1b[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.007574] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:33:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcite\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[18.007934] (vision) StderrLine: {'line': b'   33 |     cv::threshold(gray, binary, 200, 255, cv::THRESH_BINARY);[\x1b[01;31m\x1b[Kcite\x1b[m\x1b[K: 19]\n'}
+[18.008315] (vision) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[18.008643] (vision) StderrLine: {'line': b'\n'}
+[18.009006] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:33:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[18.012731] (-) TimerEvent: {}
+[18.015151] (vision) StderrLine: {'line': b'   33 |     cv::threshold(gray, binary, 200, 255, cv::THRESH_BINARY);[cite\x1b[01;31m\x1b[K:\x1b[m\x1b[K 19]\n'}
+[18.016661] (vision) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.019589] (vision) StderrLine: {'line': b'\n'}
+[18.020782] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:33:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[18.023600] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[18.024083] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:36:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kcv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.025756] (vision) StderrLine: {'line': b'   36 |             \x1b[01;31m\x1b[Kcv\x1b[m\x1b[K::Moments m = cv::moments(binary, true);\n'}
+[18.026102] (vision) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.026499] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LineDetectorNode::\x1b[01;32m\x1b[Kimage_callback\x1b[m\x1b[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.026919] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:36:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kcv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.035824] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/labib/iris_fp1_ws/vision/src/line_detector.cpp:39:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[18.037597] (vision) StderrLine: {'line': b'   39 |             if (\x1b[01;31m\x1b[Km\x1b[m\x1b[K.m00 > 0) {\n'}
+[18.042747] (vision) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.047873] (vision) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[18.112834] (-) TimerEvent: {}
+[18.213774] (-) TimerEvent: {}
+[18.315139] (-) TimerEvent: {}
+[18.416833] (-) TimerEvent: {}
+[18.517731] (-) TimerEvent: {}
+[18.618617] (-) TimerEvent: {}
+[18.719634] (-) TimerEvent: {}
+[18.820395] (-) TimerEvent: {}
+[18.920992] (-) TimerEvent: {}
+[19.022029] (-) TimerEvent: {}
+[19.122742] (-) TimerEvent: {}
+[19.223290] (-) TimerEvent: {}
+[19.324086] (-) TimerEvent: {}
+[19.426291] (-) TimerEvent: {}
+[19.526819] (-) TimerEvent: {}
+[19.627357] (-) TimerEvent: {}
+[19.729510] (-) TimerEvent: {}
+[19.830316] (-) TimerEvent: {}
+[19.931240] (-) TimerEvent: {}
+[20.031935] (-) TimerEvent: {}
+[20.132646] (-) TimerEvent: {}
+[20.233605] (-) TimerEvent: {}
+[20.334053] (-) TimerEvent: {}
+[20.434766] (-) TimerEvent: {}
+[20.535506] (-) TimerEvent: {}
+[20.636167] (-) TimerEvent: {}
+[20.737738] (-) TimerEvent: {}
+[20.841546] (-) TimerEvent: {}
+[20.942606] (-) TimerEvent: {}
+[21.026086] (communication) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/udp_sender.dir/build.make:76: CMakeFiles/udp_sender.dir/src/udp_sender.cpp.o] Error 1\n'}
+[21.027192] (communication) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/udp_sender.dir/all] Error 2\n'}
+[21.027968] (communication) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[21.039388] (communication) CommandEnded: {'returncode': 2}
+[21.042686] (-) TimerEvent: {}
+[21.062836] (communication) JobEnded: {'identifier': 'communication', 'rc': 2}
+[21.142885] (-) TimerEvent: {}
+[21.244546] (-) TimerEvent: {}
+[21.346385] (-) TimerEvent: {}
+[21.446867] (-) TimerEvent: {}
+[21.547380] (-) TimerEvent: {}
+[21.647902] (-) TimerEvent: {}
+[21.748557] (-) TimerEvent: {}
+[21.849037] (-) TimerEvent: {}
+[21.949567] (-) TimerEvent: {}
+[22.050292] (-) TimerEvent: {}
+[22.151761] (-) TimerEvent: {}
+[22.253199] (-) TimerEvent: {}
+[22.353898] (-) TimerEvent: {}
+[22.454484] (-) TimerEvent: {}
+[22.555081] (-) TimerEvent: {}
+[22.655670] (-) TimerEvent: {}
+[22.756238] (-) TimerEvent: {}
+[22.857159] (-) TimerEvent: {}
+[22.959040] (-) TimerEvent: {}
+[23.059570] (-) TimerEvent: {}
+[23.160701] (-) TimerEvent: {}
+[23.261736] (-) TimerEvent: {}
+[23.362641] (-) TimerEvent: {}
+[23.463182] (-) TimerEvent: {}
+[23.564112] (-) TimerEvent: {}
+[23.664932] (-) TimerEvent: {}
+[23.766359] (-) TimerEvent: {}
+[23.867644] (-) TimerEvent: {}
+[23.970767] (-) TimerEvent: {}
+[24.072445] (-) TimerEvent: {}
+[24.172829] (-) TimerEvent: {}
+[24.273461] (-) TimerEvent: {}
+[24.374236] (-) TimerEvent: {}
+[24.475068] (-) TimerEvent: {}
+[24.576003] (-) TimerEvent: {}
+[24.676787] (-) TimerEvent: {}
+[24.777523] (-) TimerEvent: {}
+[24.878703] (-) TimerEvent: {}
+[24.980363] (-) TimerEvent: {}
+[25.081034] (-) TimerEvent: {}
+[25.182194] (-) TimerEvent: {}
+[25.283308] (-) TimerEvent: {}
+[25.385789] (-) TimerEvent: {}
+[25.486613] (-) TimerEvent: {}
+[25.587754] (-) TimerEvent: {}
+[25.688582] (-) TimerEvent: {}
+[25.793508] (-) TimerEvent: {}
+[25.895132] (-) TimerEvent: {}
+[25.995804] (-) TimerEvent: {}
+[26.096793] (-) TimerEvent: {}
+[26.197528] (-) TimerEvent: {}
+[26.297985] (-) TimerEvent: {}
+[26.398554] (-) TimerEvent: {}
+[26.499266] (-) TimerEvent: {}
+[26.600528] (-) TimerEvent: {}
+[26.703123] (-) TimerEvent: {}
+[26.804325] (-) TimerEvent: {}
+[26.904888] (-) TimerEvent: {}
+[27.006307] (-) TimerEvent: {}
+[27.106842] (-) TimerEvent: {}
+[27.207278] (-) TimerEvent: {}
+[27.307762] (-) TimerEvent: {}
+[27.409378] (-) TimerEvent: {}
+[27.509786] (-) TimerEvent: {}
+[27.610287] (-) TimerEvent: {}
+[27.710724] (-) TimerEvent: {}
+[27.811368] (-) TimerEvent: {}
+[27.912007] (-) TimerEvent: {}
+[28.013521] (-) TimerEvent: {}
+[28.114076] (-) TimerEvent: {}
+[28.214551] (-) TimerEvent: {}
+[28.315484] (-) TimerEvent: {}
+[28.416233] (-) TimerEvent: {}
+[28.517893] (-) TimerEvent: {}
+[28.618937] (-) TimerEvent: {}
+[28.720386] (-) TimerEvent: {}
+[28.821458] (-) TimerEvent: {}
+[28.922341] (-) TimerEvent: {}
+[29.023615] (-) TimerEvent: {}
+[29.124269] (-) TimerEvent: {}
+[29.224709] (-) TimerEvent: {}
+[29.325515] (-) TimerEvent: {}
+[29.425972] (-) TimerEvent: {}
+[29.527330] (-) TimerEvent: {}
+[29.627923] (-) TimerEvent: {}
+[29.728814] (-) TimerEvent: {}
+[29.831126] (-) TimerEvent: {}
+[29.932499] (-) TimerEvent: {}
+[30.033351] (-) TimerEvent: {}
+[30.133824] (-) TimerEvent: {}
+[30.234334] (-) TimerEvent: {}
+[30.335131] (-) TimerEvent: {}
+[30.436068] (-) TimerEvent: {}
+[30.538186] (-) TimerEvent: {}
+[30.639201] (-) TimerEvent: {}
+[30.741200] (-) TimerEvent: {}
+[30.841977] (-) TimerEvent: {}
+[30.942929] (-) TimerEvent: {}
+[31.016391] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_detector.dir/build.make:76: CMakeFiles/line_detector.dir/src/line_detector.cpp.o] Error 1\n'}
+[31.017272] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/line_detector.dir/all] Error 2\n'}
+[31.017611] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[31.021494] (vision) JobEnded: {'identifier': 'vision', 'rc': 'SIGINT'}
+[31.029593] (-) EventReactorShutdown: {}

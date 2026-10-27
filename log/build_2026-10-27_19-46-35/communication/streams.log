@@ -1,0 +1,32 @@
+[0.072s] Invoking command in '/home/labib/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/labib/iris_fp1_ws/communication -DCMAKE_INSTALL_PREFIX=/home/labib/iris_fp1_ws/install/communication
+[0.311s] -- The C compiler identification is GNU 13.3.0
+[0.543s] -- The CXX compiler identification is GNU 13.3.0
+[0.601s] -- Detecting C compiler ABI info
+[0.945s] -- Detecting C compiler ABI info - done
+[0.986s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.986s] -- Detecting C compile features
+[0.988s] -- Detecting C compile features - done
+[1.024s] -- Detecting CXX compiler ABI info
+[1.445s] -- Detecting CXX compiler ABI info - done
+[1.488s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.489s] -- Detecting CXX compile features
+[1.500s] -- Detecting CXX compile features - done
+[1.501s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.086s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.598s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.107s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.110s] -- Configured cppcheck include dirs: 
+[3.111s] -- Configured cppcheck exclude dirs and/or files: 
+[3.114s] -- Added test 'lint_cmake' to check CMake code style
+[3.119s] -- Added test 'uncrustify' to check C / C++ code style
+[3.119s] -- Configured uncrustify additional arguments: 
+[3.120s] -- Added test 'xmllint' to check XML markup files
+[3.131s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[3.132s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[3.132s]   before
+[3.132s] Call Stack (most recent call first):
+[3.134s]   CMakeLists.txt:29 (ament_target_dependencies)
+[3.135s] 
+[3.135s] [0m
+[3.136s] -- Configuring incomplete, errors occurred!
+[3.145s] Invoked command in '/home/labib/iris_fp1_ws/build/communication' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/labib/iris_fp1_ws/communication -DCMAKE_INSTALL_PREFIX=/home/labib/iris_fp1_ws/install/communication

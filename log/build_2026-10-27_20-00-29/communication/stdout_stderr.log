@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/udp_sender.dir/src/udp_sender.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable udp_sender[0m
+[ 50%] Built target udp_sender
+[ 75%] [32mBuilding CXX object CMakeFiles/udp_receiver.dir/src/udp_receiver.cpp.o[0m
+[100%] [32m[1mLinking CXX executable udp_receiver[0m
+[100%] Built target udp_receiver
+-- Install configuration: ""
+-- Installing: /home/labib/iris_fp1_ws/install/communication/lib/communication/udp_sender
+-- Set non-toolchain portion of runtime path of "/home/labib/iris_fp1_ws/install/communication/lib/communication/udp_sender" to ""
+-- Installing: /home/labib/iris_fp1_ws/install/communication/lib/communication/udp_receiver
+-- Set non-toolchain portion of runtime path of "/home/labib/iris_fp1_ws/install/communication/lib/communication/udp_receiver" to ""
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.sh
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.dsv
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/environment/path.sh
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/environment/path.dsv
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/local_setup.bash
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/local_setup.sh
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/local_setup.zsh
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/local_setup.dsv
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/package.dsv
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/ament_index/resource_index/packages/communication
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig.cmake
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig-version.cmake
+-- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/package.xml

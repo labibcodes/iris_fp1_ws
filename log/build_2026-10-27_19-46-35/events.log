@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.000883] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.001036] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.001115] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.002346] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.002931] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.003017] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.003305] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.003549] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.003615] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.003681] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.003791] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.003853] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.003917] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.004002] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.004058] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.004313] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.004468] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.004535] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.004605] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.004691] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.004782] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.005200] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.005315] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.006331] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.006523] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.006618] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.006702] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.006803] (-) JobUnselected: {'identifier': 'lusb'}
+[0.006899] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.007028] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.007112] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.007302] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.007420] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.007494] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.007605] (communication) JobQueued: {'identifier': 'communication', 'dependencies': OrderedDict()}
+[0.008484] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.008628] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.008694] (communication) JobStarted: {'identifier': 'communication'}
+[0.034477] (master) JobStarted: {'identifier': 'master'}
+[0.048684] (vision) JobStarted: {'identifier': 'vision'}
+[0.070295] (communication) JobProgress: {'identifier': 'communication', 'progress': 'cmake'}
+[0.073683] (communication) Command: {'cmd': ['/usr/bin/cmake', '/home/labib/iris_fp1_ws/communication', '-DCMAKE_INSTALL_PREFIX=/home/labib/iris_fp1_ws/install/communication'], 'cwd': '/home/labib/iris_fp1_ws/build/communication', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'labib', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/labib', 'OLDPWD': '/home/labib', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3224', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/labib/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'labib', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'labib', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/labib-Precision-7550:@/tmp/.ICE-unix/2996,unix/labib-Precision-7550:/tmp/.ICE-unix/2996', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4656c7c1_05f6_4f5e_a810_6486fd7070a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/labib/iris_fp1_ws/build/communication', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.084336] (master) JobProgress: {'identifier': 'master', 'progress': 'cmake'}
+[0.085808] (master) Command: {'cmd': ['/usr/bin/cmake', '/home/labib/iris_fp1_ws/master', '-DCMAKE_INSTALL_PREFIX=/home/labib/iris_fp1_ws/install/master'], 'cwd': '/home/labib/iris_fp1_ws/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'labib', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/labib', 'OLDPWD': '/home/labib', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3224', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/labib/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'labib', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'labib', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/labib-Precision-7550:@/tmp/.ICE-unix/2996,unix/labib-Precision-7550:/tmp/.ICE-unix/2996', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4656c7c1_05f6_4f5e_a810_6486fd7070a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/labib/iris_fp1_ws/build/master', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.103069] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.103260] (-) TimerEvent: {}
+[0.105239] (vision) Command: {'cmd': ['/usr/bin/cmake', '/home/labib/iris_fp1_ws/vision', '-DCMAKE_INSTALL_PREFIX=/home/labib/iris_fp1_ws/install/vision'], 'cwd': '/home/labib/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'labib', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/labib', 'OLDPWD': '/home/labib', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3224', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/labib/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'labib', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'labib', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/labib-Precision-7550:@/tmp/.ICE-unix/2996,unix/labib-Precision-7550:/tmp/.ICE-unix/2996', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4656c7c1_05f6_4f5e_a810_6486fd7070a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/labib/iris_fp1_ws/build/vision', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.205776] (-) TimerEvent: {}
+[0.309215] (-) TimerEvent: {}
+[0.318718] (communication) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.342333] (master) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.344481] (vision) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.410408] (-) TimerEvent: {}
+[0.511232] (-) TimerEvent: {}
+[0.550629] (communication) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.570268] (master) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.575555] (vision) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.609195] (communication) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.611400] (-) TimerEvent: {}
+[0.630389] (master) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.638875] (vision) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.711814] (-) TimerEvent: {}
+[0.814893] (-) TimerEvent: {}
+[0.916061] (-) TimerEvent: {}
+[0.951942] (communication) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.964209] (vision) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.965123] (master) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.993865] (communication) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.994778] (communication) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.996265] (communication) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.997712] (vision) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.999911] (vision) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.000803] (master) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.001429] (master) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.002109] (vision) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.005965] (master) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.016255] (-) TimerEvent: {}
+[1.031115] (communication) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.040558] (vision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.043037] (master) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.117361] (-) TimerEvent: {}
+[1.218083] (-) TimerEvent: {}
+[1.318889] (-) TimerEvent: {}
+[1.419709] (-) TimerEvent: {}
+[1.431820] (vision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.449381] (master) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.453196] (communication) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.479872] (vision) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.485301] (vision) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.485905] (vision) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.493953] (master) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.495421] (master) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.496426] (communication) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.497150] (communication) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.507535] (master) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.508472] (communication) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.508761] (vision) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.508995] (master) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.509253] (communication) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.519776] (-) TimerEvent: {}
+[1.620559] (-) TimerEvent: {}
+[1.721275] (-) TimerEvent: {}
+[1.822149] (-) TimerEvent: {}
+[1.924214] (-) TimerEvent: {}
+[2.024708] (-) TimerEvent: {}
+[2.089034] (vision) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.093771] (communication) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.107374] (master) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.125096] (-) TimerEvent: {}
+[2.225701] (-) TimerEvent: {}
+[2.326724] (-) TimerEvent: {}
+[2.428245] (-) TimerEvent: {}
+[2.528875] (-) TimerEvent: {}
+[2.604915] (vision) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.606541] (communication) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.607026] (master) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.629088] (-) TimerEvent: {}
+[2.729765] (-) TimerEvent: {}
+[2.830670] (-) TimerEvent: {}
+[2.931465] (-) TimerEvent: {}
+[3.033435] (-) TimerEvent: {}
+[3.114897] (communication) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.115755] (master) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.116869] (vision) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.117619] (master) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.118065] (master) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.118690] (communication) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.119074] (communication) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.120100] (vision) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.121803] (vision) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.122319] (communication) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.122889] (master) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.123193] (vision) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.125698] (vision) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.126238] (vision) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.127301] (communication) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.127541] (communication) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.127758] (master) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.128006] (master) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.128257] (communication) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.128564] (master) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.128874] (vision) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.133850] (-) TimerEvent: {}
+[3.135813] (master) StdoutLine: {'line': b'-- Configuring done (3.0s)\n'}
+[3.136879] (vision) StdoutLine: {'line': b'-- Configuring done (3.0s)\n'}
+[3.139360] (communication) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[3.140063] (communication) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'rclcpp' was not found\n"}
+[3.140408] (communication) StderrLine: {'line': b'  before\n'}
+[3.140708] (communication) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.140908] (communication) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_target_dependencies)\n'}
+[3.142893] (communication) StderrLine: {'line': b'\n'}
+[3.143348] (communication) StderrLine: {'line': b'\x1b[0m\n'}
+[3.143659] (communication) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.149166] (vision) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.150827] (master) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.153548] (communication) CommandEnded: {'returncode': 1}
+[3.168802] (vision) StdoutLine: {'line': b'-- Build files have been written to: /home/labib/iris_fp1_ws/build/vision\n'}
+[3.170189] (master) StdoutLine: {'line': b'-- Build files have been written to: /home/labib/iris_fp1_ws/build/master\n'}
+[3.187026] (vision) CommandEnded: {'returncode': 0}
+[3.189520] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[3.192294] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/labib/iris_fp1_ws/build/vision', '--', '-j12', '-l12'], 'cwd': '/home/labib/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'labib', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/labib', 'OLDPWD': '/home/labib', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3224', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/labib/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'labib', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'labib', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/labib-Precision-7550:@/tmp/.ICE-unix/2996,unix/labib-Precision-7550:/tmp/.ICE-unix/2996', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4656c7c1_05f6_4f5e_a810_6486fd7070a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/labib/iris_fp1_ws/build/vision', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.234914] (communication) JobEnded: {'identifier': 'communication', 'rc': 1}
+[3.237316] (-) TimerEvent: {}
+[3.237617] (master) JobEnded: {'identifier': 'master', 'rc': 'SIGINT'}
+[3.336182] (vision) JobEnded: {'identifier': 'vision', 'rc': 'SIGINT'}
+[3.339630] (-) TimerEvent: {}
+[3.347878] (-) EventReactorShutdown: {}

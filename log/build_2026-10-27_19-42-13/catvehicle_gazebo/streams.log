@@ -1,0 +1,39 @@
+[0.112s] Invoking command in '/home/labib/iris_fp1_ws/build/catvehicle_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/labib/iris_fp1_ws/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/catvehicle_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labib/iris_fp1_ws/install/catvehicle_gazebo
+[0.240s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.240s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.241s]   CMake.
+[0.241s] 
+[0.241s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.241s]   CMake that the project does not need compatibility with older versions.
+[0.242s] 
+[0.243s] [0m
+[0.689s] -- The C compiler identification is GNU 13.3.0
+[1.249s] -- The CXX compiler identification is GNU 13.3.0
+[1.411s] -- Detecting C compiler ABI info
+[2.093s] -- Detecting C compiler ABI info - done
+[2.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.180s] -- Detecting C compile features
+[2.181s] -- Detecting C compile features - done
+[2.261s] -- Detecting CXX compiler ABI info
+[3.056s] -- Detecting CXX compiler ABI info - done
+[3.062s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.063s] -- Detecting CXX compile features
+[3.063s] -- Detecting CXX compile features - done
+[3.092s] -- Configuring incomplete, errors occurred!
+[3.093s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[3.093s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.094s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.094s]   CMake did not find one.
+[3.094s] 
+[3.094s]   Could not find a package configuration file provided by "catkin" with any
+[3.095s]   of the following names:
+[3.095s] 
+[3.095s]     catkinConfig.cmake
+[3.095s]     catkin-config.cmake
+[3.096s] 
+[3.096s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.096s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.096s]   provides a separate development package or SDK, be sure it has been
+[3.096s]   installed.
+[3.097s] 
+[3.097s] [0m

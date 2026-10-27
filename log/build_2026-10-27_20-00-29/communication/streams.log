@@ -1,0 +1,30 @@
+[0.075s] Invoking command in '/home/labib/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/labib/iris_fp1_ws/build/communication -- -j12 -l12
+[0.324s] [ 25%] [32mBuilding CXX object CMakeFiles/udp_sender.dir/src/udp_sender.cpp.o[0m
+[37.389s] [ 50%] [32m[1mLinking CXX executable udp_sender[0m
+[38.857s] [ 50%] Built target udp_sender
+[38.944s] [ 75%] [32mBuilding CXX object CMakeFiles/udp_receiver.dir/src/udp_receiver.cpp.o[0m
+[60.088s] [100%] [32m[1mLinking CXX executable udp_receiver[0m
+[60.880s] [100%] Built target udp_receiver
+[60.925s] Invoked command in '/home/labib/iris_fp1_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/labib/iris_fp1_ws/build/communication -- -j12 -l12
+[60.926s] Invoking command in '/home/labib/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/labib/iris_fp1_ws/build/communication
+[60.952s] -- Install configuration: ""
+[60.953s] -- Installing: /home/labib/iris_fp1_ws/install/communication/lib/communication/udp_sender
+[60.969s] -- Set non-toolchain portion of runtime path of "/home/labib/iris_fp1_ws/install/communication/lib/communication/udp_sender" to ""
+[60.970s] -- Installing: /home/labib/iris_fp1_ws/install/communication/lib/communication/udp_receiver
+[60.971s] -- Set non-toolchain portion of runtime path of "/home/labib/iris_fp1_ws/install/communication/lib/communication/udp_receiver" to ""
+[60.971s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+[60.972s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+[60.973s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.sh
+[60.973s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.dsv
+[60.974s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/environment/path.sh
+[60.974s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/environment/path.dsv
+[60.975s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/local_setup.bash
+[60.975s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/local_setup.sh
+[60.976s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/local_setup.zsh
+[60.976s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/local_setup.dsv
+[60.977s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/package.dsv
+[60.977s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/ament_index/resource_index/packages/communication
+[60.978s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig.cmake
+[60.980s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig-version.cmake
+[60.981s] -- Installing: /home/labib/iris_fp1_ws/install/communication/share/communication/package.xml
+[60.986s] Invoked command in '/home/labib/iris_fp1_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/labib/iris_fp1_ws/build/communication

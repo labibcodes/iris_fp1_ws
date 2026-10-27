@@ -1,0 +1,31 @@
+[0.131s] Invoking command in '/home/labib/iris_fp1_ws/build/avisengine_environment': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/labib/iris_fp1_ws/simulation/src/FIRA-Autonomous-Cars-Simulator/avisengine_environment -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labib/iris_fp1_ws/install/avisengine_environment
+[2.833s] -- The C compiler identification is GNU 13.3.0
+[2.834s] -- The CXX compiler identification is GNU 13.3.0
+[2.834s] -- Detecting C compiler ABI info
+[2.834s] -- Detecting C compiler ABI info - done
+[2.834s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.835s] -- Detecting C compile features
+[2.836s] -- Detecting C compile features - done
+[2.836s] -- Detecting CXX compiler ABI info
+[2.841s] -- Detecting CXX compiler ABI info - done
+[2.902s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.903s] -- Detecting CXX compile features
+[2.903s] -- Detecting CXX compile features - done
+[2.933s] -- Configuring incomplete, errors occurred!
+[2.933s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.934s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.936s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.940s]   CMake did not find one.
+[2.948s] 
+[2.948s]   Could not find a package configuration file provided by "catkin" with any
+[2.956s]   of the following names:
+[2.956s] 
+[2.956s]     catkinConfig.cmake
+[2.956s]     catkin-config.cmake
+[2.974s] 
+[2.974s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.977s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.977s]   provides a separate development package or SDK, be sure it has been
+[2.978s]   installed.
+[2.978s] 
+[2.978s] [0m
