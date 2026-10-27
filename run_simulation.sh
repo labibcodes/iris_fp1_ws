@@ -1,1 +1,1 @@
-./src/simulation/scripts/run_container.sh
+./simulation/scripts/run_container.sh
