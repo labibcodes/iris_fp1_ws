@@ -1,1 +1,0 @@
-Invoking command in '/home/labib/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/labib/iris_fp1_ws/master -DCMAKE_INSTALL_PREFIX=/home/labib/iris_fp1_ws/install/master
