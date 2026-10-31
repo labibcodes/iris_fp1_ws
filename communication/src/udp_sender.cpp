@@ -57,7 +57,7 @@ private:
     }
 
     void build_packet(uint8_t (&buf)[kPacketSize], int32_t pwm, int32_t steer) {
-        pwm = std::clamp<int32_t>(pwm, -255, 255);
+        pwm = std::clamp<int32_t>(pwm, -2000, 2000);
         steer = std::clamp<int32_t>(steer, -90, 90);
 
         uint32_t pwm_le = htole32(static_cast<uint32_t>(pwm));
